@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULLBOTS - Modern Digital Solutions</title>
+    <meta name="description" content="NULLBOTS is a team of anonymous students with a passion for delivering exceptional digital solutions, from web and mobile applications to AI/ML solutions and game development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+
+    <!-- Particle Background -->
+    <canvas class="particles" id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NULLBOTS</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">HOME</a>
+                <a href="#services" class="nav-link">SERVICES</a>
+                <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                <a href="#team" class="nav-link">TEAM</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <!-- Background Elements -->
+        <div class="hero-bg">
+            <div class="bg-element bg-element-1"></div>
+            <div class="bg-element bg-element-2"></div>
+            <div class="bg-element bg-element-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <!-- Text Content -->
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fas fa-sparkles"></i>
+                        <span>Welcome to NULLBOTS</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="text-white">We Create</span>
+                        <span class="gradient-text">Digital Solutions</span>
+                        <span class="text-white">For Your Business</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        We are an anonymous team of students with a passion for delivering exceptional digital solutions, 
+                        from web and mobile applications to AI/ML solutions and game development.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>Our Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-code"></i>
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image Content -->
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="NULLBOTS Digital Solutions">
+                        <div class="image-overlay"></div>
+                        
+                        <!-- Floating Animation Elements -->
+                        <div class="floating-dot floating-dot-1"></div>
+                        <div class="floating-dot floating-dot-2"></div>
+                    </div>
+
+                    <!-- Floating Card -->
+                    <div class="floating-card">
+                        <div class="card-status">
+                            <div class="status-dot"></div>
+                            <span>ACTIVE PROJECT</span>
+                        </div>
+                        <h3>Innovative Solutions</h3>
+                        <p>We combine creativity with technical expertise to deliver cutting-edge digital experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-element bg-element-4"></div>
+            <div class="bg-element bg-element-5"></div>
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="section-badge">
+                    <div class="badge-line"></div>
+                    <span>Our Services</span>
+                    <div class="badge-line"></div>
+                </div>
+                
+                <h2 class="section-title">
+                    What We <span class="gradient-text">Offer</span>
+                </h2>
+                
+                <p class="section-subtitle">
+                    We offer a wide range of digital services to help your business grow and succeed in the digital landscape.
+                </p>
+                
+                <a href="#contact" class="view-all-link">
+                    <span>View All Services</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-delay="0">
+                    <div class="service-icon blue-gradient">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>We build responsive, fast, and secure websites and web applications tailored to your specific needs.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="100">
+                    <div class="service-icon purple-gradient">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Designing</h3>
+                    <p>We create intuitive, engaging user interfaces and experiences that delight your users and drive conversions.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="200">
+                    <div class="service-icon green-gradient">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>From concept to launch, we develop engaging games for multiple platforms using cutting-edge technologies.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="300">
+                    <div class="service-icon orange-gradient">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>We build native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="400">
+                    <div class="service-icon indigo-gradient">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>IOT Solutions</h3>
+                    <p>We design and implement Internet of Things solutions that connect your devices and systems for smarter operations.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="500">
+                    <div class="service-icon violet-gradient">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & ML Solutions</h3>
+                    <p>We leverage artificial intelligence and machine learning to solve complex problems and drive business innovation.</p>
+                    <div class="card-hover-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-element bg-element-6"></div>
+            <div class="bg-element bg-element-7"></div>
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="section-badge">
+                    <div class="badge-line"></div>
+                    <span>Our Portfolio</span>
+                    <div class="badge-line"></div>
+                </div>
+                
+                <h2 class="section-title">
+                    Our <span class="gradient-text">Latest Work</span>
+                </h2>
+                
+                <p class="section-subtitle">
+                    Check out some of our recent projects and see how we've helped our clients achieve their goals.
+                </p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-filter"></i>
+                    <span>All Projects</span>
+                </button>
+                <button class="filter-btn" data-filter="ai">
+                    <i class="fas fa-robot"></i>
+                    <span>Artificial Intelligence</span>
+                </button>
+                <button class="filter-btn" data-filter="healthcare">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>Healthcare AI</span>
+                </button>
+                <button class="filter-btn" data-filter="creative">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>Creative AI</span>
+                </button>
+                <button class="filter-btn" data-filter="game">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Game Development</span>
+                </button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="ai" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="AI Chatbot">
+                        
+                        <!-- Overlay -->
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-category blue-gradient">Artificial Intelligence</div>
+                                <h3>AI Chatbot</h3>
+                                <p>Advanced conversational AI chatbot with natural language processing capabilities.</p>
+                                
+                                <!-- Tech Stack -->
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">NLP</span>
+                                </div>
+                                
+                                <!-- Action Buttons -->
+                                <div class="portfolio-actions">
+                                    <button class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>View</span>
+                                    </button>
+                                    <button class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                        <span>Code</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Corner Accent -->
+                        <div class="corner-accent blue-gradient"></div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="healthcare" data-aos="fade-up" data-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/5752274/pexels-photo-5752274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="Eye Disease Classification">
+                        
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-category green-gradient">Healthcare AI</div>
+                                <h3>Eye Disease Classification</h3>
+                                <p>AI-powered system that can detect and classify various eye diseases from retinal images.</p>
+                                
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">OpenCV</span>
+                                    <span class="tech-tag">CNN</span>
+                                </div>
+                                
+                                <div class="portfolio-actions">
+                                    <button class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>View</span>
+                                    </button>
+                                    <button class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                        <span>Code</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corner-accent green-gradient"></div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="healthcare" data-aos="fade-up" data-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/7615460/pexels-photo-7615460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="Skin Disease Classification">
+                        
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-category purple-gradient">Healthcare AI</div>
+                                <h3>Skin Disease Classification</h3>
+                                <p>Machine learning system that identifies skin conditions from images with high accuracy.</p>
+                                
+                                <div class="tech-stack">
+                                    <span class="tech-tag">PyTorch</span>
+                                    <span class="tech-tag">Computer Vision</span>
+                                    <span class="tech-tag">Flask</span>
+                                </div>
+                                
+                                <div class="portfolio-actions">
+                                    <button class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>View</span>
+                                    </button>
+                                    <button class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                        <span>Code</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corner-accent purple-gradient"></div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="creative" data-aos="fade-up" data-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="AI Storytelling">
+                        
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-category orange-gradient">Creative AI</div>
+                                <h3>AI Driven Storytelling Machine</h3>
+                                <p>Interactive AI system that creates personalized stories based on user input and preferences.</p>
+                                
+                                <div class="tech-stack">
+                                    <span class="tech-tag">GPT-4</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">DALL-E</span>
+                                </div>
+                                
+                                <div class="portfolio-actions">
+                                    <button class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>View</span>
+                                    </button>
+                                    <button class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                        <span>Code</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corner-accent orange-gradient"></div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="game" data-aos="fade-up" data-delay="400">
+                    <div class="portfolio-image">
+                        <img src="https://images.pexels.com/photos/7915493/pexels-photo-7915493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                             alt="Blast Royale">
+                        
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-category indigo-gradient">Game Development</div>
+                                <h3>Blast Royale</h3>
+                                <p>Multiplayer battle royale game developed using Unreal Engine with advanced physics and graphics.</p>
+                                
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Unreal Engine</span>
+                                    <span class="tech-tag">C++</span>
+                                    <span class="tech-tag">Multiplayer</span>
+                                </div>
+                                
+                                <div class="portfolio-actions">
+                                    <button class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        <span>View</span>
+                                    </button>
+                                    <button class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                        <span>Code</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corner-accent indigo-gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-element bg-element-8"></div>
+            <div class="bg-element bg-element-9"></div>
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="section-badge">
+                    <div class="badge-line"></div>
+                    <span>Meet Our Team</span>
+                    <div class="badge-line"></div>
+                </div>
+                
+                <h2 class="section-title">
+                    Our <span class="gradient-text">Values</span>
+                </h2>
+                
+                <p class="section-subtitle">
+                    We are an anonymous team of students with a passion for delivering exceptional digital solutions.
+                </p>
+            </div>
+
+            <!-- Values Grid -->
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-delay="0">
+                    <div class="value-icon yellow-gradient">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We constantly explore new technologies and approaches to deliver cutting-edge solutions.</p>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-delay="100">
+                    <div class="value-icon blue-gradient">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Quality</h3>
+                    <p>We are committed to excellence in every aspect of our work, from code to client communication.</p>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-delay="200">
+                    <div class="value-icon green-gradient">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>We believe in the power of teamwork and partner closely with our clients to achieve success.</p>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-delay="300">
+                    <div class="value-icon red-gradient">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We operate with honesty, transparency, and ethical practices in all our endeavors.</p>
+                    <div class="floating-elements">
+                        <div class="floating-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-container" data-aos="fade-up">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-count="6">0</div>
+                        <div class="stat-label">Team Members</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-element bg-element-10"></div>
+            <div class="bg-element bg-element-11"></div>
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="section-badge">
+                    <div class="badge-line"></div>
+                    <span>Get In Touch</span>
+                    <div class="badge-line"></div>
+                </div>
+                
+                <h2 class="section-title">
+                    Let's <span class="gradient-text">Connect</span>
+                </h2>
+                
+                <p class="section-subtitle">
+                    Have a project in mind? We'd love to hear from you and discuss how we can help bring your ideas to life.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-item" data-aos="fade-right" data-delay="0">
+                        <div class="contact-icon red-gradient">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>Innovation Hub, Tech Park<br>California, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-right" data-delay="100">
+                        <div class="contact-icon green-gradient">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-right" data-delay="200">
+                        <div class="contact-icon blue-gradient">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>info@nullbots.com<br>support@nullbots.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-right" data-delay="300">
+                        <div class="contact-icon purple-gradient">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Weekends: By appointment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <!-- Name and Email Row -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div class="success-message" id="success-message">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. We'll get back to you soon.</p>
+                        <button class="btn btn-secondary" onclick="resetForm()">Send Another Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to transform your digital presence?</h2>
+                <p>Let's discuss how NULLBOTS can help you achieve your goals with our innovative digital solutions.</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Get Started</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <h3>NULLBOTS</h3>
+                    <p>A team of anonymous students with a passion for delivering exceptional digital solutions.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-arrow-right"></i> Home</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-arrow-right"></i> Portfolio</a></li>
+                        <li><a href="#team"><i class="fas fa-arrow-right"></i> Team</a></li>
+                        <li><a href="#contact"><i class="fas fa-arrow-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> Web Development</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> UI/UX Designing</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> Game Development</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> App Development</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> IOT Solutions</a></li>
+                        <li><a href="#services"><i class="fas fa-arrow-right"></i> AI & ML Solutions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-section">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to get the latest updates and news.</p>
+                    <form class="newsletter-form">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Your email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 NULLBOTS. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
